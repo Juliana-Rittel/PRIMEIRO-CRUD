@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(176, 233, 233);
+    text-align: center;
+    font-family: "sans-serif";
+    justify-content: center;
+}
+
+#nome{
+    color:rgb(0, 136, 255);
+    font-size: 45px;
+    font-family: "sans-serif";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#subtitulo{
+    text-transform: uppercase;
+    color:rgb(5, 85, 155);
+    font-family: "sans-serif";
+    font-size: 25px;
+}
+
+a {
+    background-color: rgb(176, 233, 233);
+    color:rgb(86, 86, 187);
+    padding: 5px;
+    text-decoration: none;
+}
+
+#carrinho{
+    width: 5.5%;
+}
+
+#criar{
+    text-align: left;
+    margin-left: 60px;
+    font-size: 160%;
+}
+
+button {
+    background-color: white;
+    color:rgb(86, 86, 187);
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 1em;
+    position: absolute;
+    cursor: pointer;
+}
+
+#atualizar{
+    margin-left: 30px;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  } 
+  .image-container img {
+    width: 5%; /* Ajuste o valor conforme necessário */
+    height: auto;
+  }
+  
+.imagens{
+    justify-content: center;
+}
+    .imagens img {
+        width: 120px;
+    }
+
+#tabela{
+    margin-left: 370px;
+    width: 50%;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    float: left;
+}
+
+td, tr, table{
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+tr#titulo{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+tr{
+    line-height: 30px;
+}
+
+#crriar{
+    margin: 20px;
+}
+
+#voltar{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#enviar{
+    margin-left:-33px;
+}
+
+input, button, a{
+    border-radius: 5px;
+}
+
+input{
+    margin-top: 15px;
+    margin-left: 660px;
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgb(0, 15, 114);
+    display: block;
+}
